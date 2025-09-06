@@ -63,6 +63,11 @@ address {
     color: #404bbf; 
 }
 
+.hero-section.container {
+    width: 1440px;
+    height: 600px;
+}
+
 .contacts-menu-item {
     font-weight: 400;
     font-size: 16px;
