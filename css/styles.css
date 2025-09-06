@@ -12,6 +12,14 @@ ul {
     list-style: none;
 }
 
+.container {
+    max-width: 0;
+    padding-left: 0; 
+    padding-right: 0; 
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .header {
     background-color: #FFFFFF;
 }
@@ -117,7 +125,18 @@ address {
     color: #FFFFFF;
     background-color: #4D5AE5;
 }
-
+    .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .about {
     background-color: #FFFFFF;
 }
