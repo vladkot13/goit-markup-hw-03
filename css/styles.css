@@ -75,17 +75,15 @@ a {
 .navigation {
     display: flex;
     align-items: center;
-    padding: 24px 0; 
 }
 
 .navigation-list {
    display: flex;
    gap: 40px;
-   padding: 24px 0;
+
 }
 .header-menu 
-{
-    padding: 24px 0; }
+{   padding: 24px 0; }
 
 .logo-variation {
     font-family: "Raleway", sans-serif;
