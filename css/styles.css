@@ -89,6 +89,8 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-footer-variation {
@@ -236,6 +238,8 @@ a {
 }
 
 .employees-header   {
+    margin-top: 120px;
+    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -248,12 +252,22 @@ a {
     background-color: #FFFFFF;
 }
 
+.employees-menu {
+    display: inline-flex;
+    gap: 24px;
+}
+
 .employees-list {
+
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    text-align: center;
+    display: inline-flex;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
+    margin-bottom: 8px;
     color: #2e2f42;
 }
 
@@ -267,9 +281,20 @@ a {
     color: #434455;
 }
 
+.employee-container
+{
+    padding: 32px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
 .portfolio
     {
     background-color: #FFFFFF;
+    padding: 120px 0;
 }
 
 .portfolio-header {
@@ -279,7 +304,29 @@ a {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    text-transform: capitalize
+    text-transform: capitalize;
+}
+
+.portfolio-menu {
+    padding: 72px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 48px;
+}
+
+.portfolio-menu-list {
+    width: calc((100% - 48px) / 3)
+}
+
+.portfolio-menu-list {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.portfolio-menu-list img {
+    object-fit: none;
 }
 
 .portfolio-list {
@@ -289,7 +336,7 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-
+    margin-bottom: 8px;
 }
 
 .portfolio-list-text {
@@ -303,8 +350,17 @@ a {
 
 }
 
+.portfolio-imagine {
+
+  display: block;
+  max-width: 100%;
+
+}
+
+
 .footer {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 
 .footer-text {
@@ -313,4 +369,5 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
 }
