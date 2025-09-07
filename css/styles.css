@@ -253,7 +253,7 @@ a {
 .employees
     {
     background-color: #F4F4FD;
-     padding: 120px 0 120px;
+    padding: 120px 0 120px;
 }
 
 .employees-header   {
@@ -268,13 +268,13 @@ a {
 
 .employees-multiple {
     background-color: #FFFFFF;
-    
+    border-radius: 0px 0px 4px 4px; 
 }
 
 .employees-menu {
     display: flex;
     gap: 24px;
-    border-radius: 0px 0px 4px 4px; 
+    
 }
 
 .employees-list {
